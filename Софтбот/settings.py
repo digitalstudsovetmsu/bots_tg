@@ -6,11 +6,11 @@ print(PROJECT_ROOT)
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'users'))
 
 # подключаем БД
-conn = psycopg2.connect(dbname='mytestdb', user='mytestuser',
-                        password='51705170', host='89.108.64.97')
+conn = psycopg2.connect(dbname='', user='',
+                        password='', host='')
 cursor = conn.cursor()  # обращаться будем через курсор
 
-BotToken = '928197350:AAH5MzOU1Iwtb02v1xjYDloygFKFgefIePU'  # это API бота @mse_soft_u_bot
+BotToken = ''  # это API бота @mse_soft_u_bot
 
 # -------------------------ВСЕ ОСНОВНЫЕ ТЕКСТОВЫЕ ФАЙЛЫ ------------------------------------------------------------
 
